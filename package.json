@@ -1,0 +1,16 @@
+{
+  "name": "WEB802-Week-1",
+  "version": "1.0.0",
+  "description": "Week 1 Day 1 Homework",
+  "main": "server_task2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm i && concurrently \"nodemon server_task1.js\" \"nodemon server_task2.js\""
+  },
+  "author": "Bhargav",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
